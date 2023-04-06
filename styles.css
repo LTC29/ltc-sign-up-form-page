@@ -185,12 +185,13 @@ input {
   height: 2.2rem;
   order: 2;
   width: 15rem;
-  transition: all 0.25s;
+  -webkit-appearance: none;
+  outline: none;
 }
 
-input::selection {
+input:focus {
   border-style: solid;
   border-color: #6a6afd;
-  border-width: 1px;
-  box-shadow: 6px 6px 12px 1px rgba(0, 0, 0, 0.4);
+  border-width: 2px;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.1);
 }
