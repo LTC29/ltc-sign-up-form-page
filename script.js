@@ -15,4 +15,4 @@ function validatePassword() {
   }
 }
 
-confirmPasswordInput.addEventListener("keydown", validatePassword);
+confirmPasswordInput.addEventListener("input", validatePassword);
