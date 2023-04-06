@@ -189,6 +189,8 @@ input {
 }
 
 input::selection {
-  border-color: rgb(106, 106, 253);
+  border-style: solid;
+  border-color: #6a6afd;
+  border-width: 1px;
   box-shadow: 6px 6px 12px 1px rgba(0, 0, 0, 0.4);
 }
