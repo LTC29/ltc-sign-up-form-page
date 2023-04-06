@@ -195,3 +195,19 @@ input:focus {
   border-width: 2px;
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.1);
 }
+
+.wrong,
+.wrong:focus {
+  border-style: solid;
+  border-color: red !important;
+  border-width: 2px;
+}
+
+.block {
+  display: block;
+}
+
+#error-text {
+  color: red;
+  opacity: 0;
+}

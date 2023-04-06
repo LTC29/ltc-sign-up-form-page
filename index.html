@@ -67,11 +67,14 @@
                   <input type="tel" id="phone_number" name="phone_number" />
                 </div>
                 <div class="label6">
-                  <label for="user_password">CONFIRM PASSWORD</label>
-                  <input type="password" id="confirm_password" />
+                    <div class="error">
+                      <label for="user_password">CONFIRM PASSWORD</label>
+                      <input type="password" id="confirm_password" class="block" />
+                  </div>
                 </div>
               </div>
             </div>
+            <div class="block"><p id="error-text">* Passwords do not match</p></div>
           </div>
         </form>
         <div class="footer padding-class">
@@ -86,4 +89,5 @@
       </div>
     </div>
   </body>
+  <script src="script.js" defer></script>
 </html>
