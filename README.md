@@ -1,2 +1,1 @@
-# odin-sign-up-form-page
-"Project: Sign-up Form" from The Odin Project
+Simple sign-up page with a couple of relevant forms to fill and password verification.
